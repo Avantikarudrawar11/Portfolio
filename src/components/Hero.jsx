@@ -3,6 +3,7 @@ import { FaFileDownload } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 import Animation from "./animation";
 import "./Hero.css";
+import resume from '../assets/Avantika_Resume.pdf';
 
 function Hero() {
   return (
@@ -44,7 +45,7 @@ function Hero() {
             <a className="btn primary" href="#projects">
               View Projects
             </a>
-            <a className="btn accent" href="/resume.pdf" download>
+            <a className="btn accent" href={resume} download="Avantika_Resume.pdf">
               <FaFileDownload /> Download CV
             </a>
           </div>
