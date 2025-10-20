@@ -23,7 +23,8 @@ const projects = [
     title: "Portfolio",
     description: "This site you're viewing is My Personal Portfolio. An interactive and visually appealing portfolio site developed with React.js and styled using HTML, CSS, and JavaScript, designed to highlight my work and skills.",
     tech: ["React", "CSS", "JavaScript", "HTML"],
-    repo: "https://Avantikarudrawar11.github.io/Portfolio",
+    repo: "https://github.com/Avantikarudrawar11/Portfolio.git",
+    link: "https://Avantikarudrawar11.github.io/Portfolio",
     image: portImg,
   },
 ];
