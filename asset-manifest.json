@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.408b75c6.css",
-    "main.js": "/static/js/main.b0a7c89e.js",
+    "main.js": "/static/js/main.a9968c11.js",
     "static/media/port.jpg": "/static/media/port.608018b8837dd37fc4e1.jpg",
+    "static/media/Avantika_Resume.pdf": "/static/media/Avantika_Resume.8574d678429274987d8d.pdf",
     "index.html": "/index.html",
     "main.408b75c6.css.map": "/static/css/main.408b75c6.css.map",
-    "main.b0a7c89e.js.map": "/static/js/main.b0a7c89e.js.map"
+    "main.a9968c11.js.map": "/static/js/main.a9968c11.js.map"
   },
   "entrypoints": [
     "static/css/main.408b75c6.css",
-    "static/js/main.b0a7c89e.js"
+    "static/js/main.a9968c11.js"
   ]
 }
