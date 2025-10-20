@@ -1,0 +1,61 @@
+/* Container with scroll buttons */
+.projects-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Horizontal scroll row */
+.project-scroll {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+}
+
+.project-scroll::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+/* Each project card */
+.project {
+  flex: 0 0 320px; /* fixed width for consistency */
+  max-width: 100%;
+}
+
+/* Scroll buttons */
+.scroll-btn {
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  transition: background 0.2s ease;
+}
+
+.scroll-btn:hover {
+  background: rgba(56, 189, 248, 0.8);
+}
+
+.scroll-btn.left {
+  left: -15px;
+}
+
+.scroll-btn.right {
+  right: -15px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .project {
+    flex: 0 0 80%; /* cards take more width on small screens */
+  }
+}

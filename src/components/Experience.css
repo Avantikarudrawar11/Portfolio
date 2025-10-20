@@ -1,0 +1,7 @@
+.timeline { display: grid; gap: 16px; }
+.timeline-item { padding: 18px; display: grid; gap: 6px; border-left: 3px solid rgba(56,189,248,0.35); }
+.meta { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.role { font-weight: 600; }
+.company { color: var(--muted); }
+.period { color: var(--muted); font-size: 14px; }
+.desc { margin: 4px 0 0 0; }
